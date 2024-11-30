@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/38c464547d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class ="container">
+            <nav>
+                <img src="logo-removebg-preview.png" class="logo">
+                <ul  id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Servies</a></li>
+                    <li><a href="#work">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>FRONT-END DEVELOPER</p>
+                <h1>Hi,I'm <span>Bhanu</span><br>Teja Reddy</h1>
+            </div>
+        </div>
+    </div> 
+    <!----------------------------about-------------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+         <!-------       <div class="about-col-1"> --->
+  <!---------                <img src=""> ---->
+                </div>
+                <div class="about-col-2"></div>
+                <h1 class="sub-title">About Me</h1>
+                <p>Bhanu Teja Reddy Konda is a recent graduate in Computer Science and Engineering from Vignan University in the year 2024. I possesses strong programming knowledge in C, Core Java, and SQL, along with front-end web designing expertise. I was skilled in creating intuitive user interfaces and has a good understanding of OOP concepts. I'm eager to secure a professional role and grow by contributing to organizational success while constantly updating his skills.</p>
+            <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                <p class="tab-links" onclick="opentab('experince')">Experince</p>
+                <p class="tab-links"onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+                <ul>
+                    <li><SPAN>UI/UX</SPAN><br>Designing Web/App interfaces</li>
+                    <li><SPAN>Web Development</SPAN><br>Designing Web Development</li>
+                    <li><SPAN>App Development</SPAN><br>Building Android App</li>
+                </ul>
+            </div>
+            <div class="tab-contents" id="experince">
+                <ul>
+                    <li><SPAN>2022/05 - 2022/08</SPAN><br>Finess Application</li>
+                    <li><SPAN>2023/03 - 2023/06</SPAN><br>Weather Application</li>
+                    <li><SPAN>2023/09 - 2024/05</SPAN><br>Research and publication in IEEE on Skin Lesion Classification System</li>
+                </ul>
+            </div><div class="tab-contents" id="education">
+                <ul>
+                    <li><SPAN>2020 - 2024</SPAN><br>BTech Graduate from Vigan University with CGPA-7.52</li>
+                    <li><SPAN>2018 - 2020</SPAN><br>Sri Chaitanya Junior college with CGPA-8.3</li>
+                    <li><SPAN>2020 - 2024</SPAN><br>Sri Chaitanya High School with CGPA-9.2</li>
+                    
+                            </ul>
+            </div>
+            </div>
+        </div>
+    </div>
+    <!-------------------------------------services----------------------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                   
+                    <h2>Web Design</h2>
+                    <p>Creating visually appealing and user-friendly websites by combining layout, color schemes, typography, and interactive elements. It focuses on delivering an engaging user experience while ensuring functionality and responsiveness across devices.</p>
+                <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>UI/UX</h2>
+                    <p>Creating visually appealing and user-friendly websites by combining layout, color schemes, typography, and interactive elements. It focuses on delivering an engaging user experience while ensuring functionality and responsiveness across devices.</p>
+                <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App Design</h2>
+                    <p>Creating visually appealing and user-friendly websites by combining layout, color schemes, typography, and interactive elements. It focuses on delivering an engaging user experience while ensuring functionality and responsiveness across devices.</p>
+                <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-----------------------------------portflio-->
+    <div id="work">
+        <div class="container">
+        <h1 class="sub-title">My work</h1>
+        <div class="work-list">
+        <div class="work">
+            <img src="OIP (1).jpeg">         <!--------weather app img-->
+            <div class="layer">
+                <h3>Weather App</h3>
+                <p>Stay prepared with real-time weather updates, accurate forecasts, and detailed insights to plan your day with confidence.</p>
+                 <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+        </div>
+            <div class="work">
+                <img src="best-workout-apps12-sworkit-1543591326.jpg">        <!--------Fitness app img----------->
+                <div class="layer">
+                <h3>Fitness App</h3>
+            <p>Achieve your goals with real-time fitness tracking, personalized plans, and expert insights to stay motivated and healthy</p>   
+           <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+        </div>
+                <div class="work">
+                    <img src="download.jpeg">         <!--------weather app img----------->
+                    <div class="layer">
+                    <h3>Skin Lesion Classification</h3>
+                   <p>Get accurate skin lesion analysis with real-time classification and expert insights to prioritize your health with confidence</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>    
+                </div>
+                </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+    </div>
+    <!-----------------------------contact--------------->
+    <div id="contact">
+        <div id="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i>kondabhanutejareddy@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>+91 8919720173</p>
+                    <div class="social-icons">
+                    <a href="https://github.com/Bhanuteja11"><i class="fa-brands fa-git-alt"></i></a>
+                    <a href="https://x.com/bhanu1134758075"><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href="https://www.instagram.com/bhanu_teja_reddy16/profilecard/?igsh=MXNvdTFmbTI4b2k5NQ%3D%3D"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/bhanu11a/"><i class="fa-brands fa-linkedin"></i></a>
+                     </div>
+                     <a href="KONDA BHANU TEJA REDDY RESUME (1).pdf" download class="btn btns">Download CV</a>
+                </div>
+                <!-----------------<div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="your email" required>
+                        <textarea name="Message" rows="6"  placeholder="your message" ></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>------------------->
+            </div>
+        </div>
+       <div class="copyright">
+        <p>Copyright <i class="fa-solid fa-hippo"></i> Bhanu.</p>
+       </div>
+    </div>
+   <script>
+           var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+           function opentab(tabname){
+                for(tablink of tablinks){
+                    tablink.classList.remove("active-link");
+                }
+                for(tabcontent of tabcontents){
+                    tabcontent.classList.remove("active-tab");
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
+           } 
+   </script>
+
+   <script>
+    var sidemen= document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemen.style.right="0";
+    }
+    function closemenu(){
+        sidemen.style.right="-200px";
+    }
+   </script>
+</body>
+</html> 
